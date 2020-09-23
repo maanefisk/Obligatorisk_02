@@ -13,7 +13,11 @@ namespace Obligatorisk_02
             Symbol = symbol;
         }
 
+        protected Piece()
+        {
+            throw new NotImplementedException();
+        }
+
         public abstract bool Move(string fromPosition, string toPosition);
     }
-}
 }

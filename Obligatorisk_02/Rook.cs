@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Obligatorisk_02
 {
-    class Class1
+    class Rook : Piece
     {
     }
 }
