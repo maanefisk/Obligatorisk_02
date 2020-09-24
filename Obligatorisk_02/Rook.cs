@@ -6,7 +6,7 @@ namespace Obligatorisk_02
 {
     class Rook : Piece
     {
-        public Rook(string symbol) : base(symbol)
+        public Rook(string symbol="tårn") : base(symbol)
         {
         }
 

@@ -6,8 +6,9 @@ namespace Obligatorisk_02
 {
     class Bishop : Piece
     {
-        public Bishop(string symbol) : base(symbol)
+        public Bishop(string symbol="bonde") : base(symbol)
         {
+
         }
 
         public override bool Move(string fromPosition, string toPosition)
