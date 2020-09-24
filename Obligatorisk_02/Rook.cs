@@ -12,7 +12,7 @@ namespace Obligatorisk_02
 
         public override bool Move(string fromPosition, string toPosition)
         {
-            throw new NotImplementedException();
+            return fromPosition[0] == toPosition[0] || fromPosition[1] == toPosition[1];
         }
     }
 }
