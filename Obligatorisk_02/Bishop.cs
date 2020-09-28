@@ -6,7 +6,7 @@ namespace Obligatorisk_02
 {
     class Bishop : Piece
     {
-        public Bishop(string symbol="bonde") : base(symbol)
+        public Bishop(string symbol="Løper") : base(symbol)
         {
 
         }
